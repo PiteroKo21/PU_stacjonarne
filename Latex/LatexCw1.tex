@@ -22,7 +22,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo quam si
 \subsubsection{Lorem ipsum}
 Suspendisse placerat massa finibus, egestas nisi eget, pretium dolor. Phasellus mollis quam eu augue finibus luctus. Duis auctor fermentum enim, nec ornare odio varius in. Aliquam erat volutpat. Morbi malesuada auctor eros at tincidunt. Quisque porttitor posuere mi, ut elementum neque vulputate ac. Sed tristique justo et ultrices scelerisque. Aliquam sodales bibendum arcu ut imperdiet. Pellentesque et odio vitae erat auctor aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur nec ultrices sem. Phasellus a molestie lectus. Suspendisse feugiat, enim nec fermentum venenatis, risus justo molestie mauris, vel fermentum lectus elit at lacus. Etiam ac nulla vel metus blandit dapibus. Nullam nec egestas enim, vitae lobortis lorem. 
 \newpage
+
 \section{Przepis na Bigos z kiszonej kapusty}
+
 Składniki:
 \begin{enumerate}
 \item 500 g mięsa wieprzowego (np. karkówki)
@@ -54,4 +56,119 @@ Sposób przygotowania:
 \item Mąkę podsmażyć na suchej patelni, gdy zacznie brązowieć dodać łyżkę masła i mieszać aż masło się rozpuści.
 \item  Trzymając patelnię na ogniu dodać stopniowo kilka łyżek kapusty cały czas mieszając. Przełożyć zawartość patelni z powrotem do garnka, wymieszać i zagotować.
 \end{enumerate}
+
+\section{Przykładowy system decyzji (U, A, d)}
+
+\begin{table}[h]
+\centering\caption{Przykładowy system decyzji (U, A, d), modelujący problem diagnozy medycznej, której efektem jest decyzja o wykonani lub nie wykonaniu operacji wycięcia wyrostka robaczkowego U = \textit{{\{$u_1$, $u_2$, ..., $u_{10}$}\}, A = {\{$a_1$, $a_2$}\} ,  d $\in$ D = {\{TAK, NIE}\}}\newline}
+\begin{tabular}{c| c c c}
+\hline
+\hline
+Pacjent & Ból brzucha & Temperatura ciała & Operacja\\
+\hline
+u1 & Mocny & Wysoka & Tak\\
+
+u2 & Średni & Wysoka & Tak\\
+
+u3 & Mocny & Średnia & Tak\\
+
+u4 & Mocny & Niska & Tak\\
+
+u5 & Średni & Średnia & Tak\\
+
+u6 & Średni & Średnia & Nie\\
+
+u7 & Mały & Wysoka & Nie\\
+
+u8 & mały & Niska & Nie\\
+
+u9 & Mocny & Niska & Nie\\
+
+u10 & Mały & Średnia & Nie\\
+
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\section{Bramki logiczne}
+
+\begin{table}[h]
+\centering\caption{AND}
+\begin{tabular}{c c| c}
+
+A & B & Q\\
+\hline
+0 & 0 & 0\\
+0 & 1 & 0\\
+1 & 0 & 0\\
+1 & 1 & 1\\
+
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering\caption{OR}
+\begin{tabular}{c c| c}
+
+A & B & Q\\
+\hline
+0 & 0 & 0\\
+0 & 1 & 1\\
+1 & 0 & 1\\
+1 & 1 & 1\\
+
+\end{tabular}
+\end{table}
+\begin{table}[h]
+\centering\caption{NAND}
+\begin{tabular}{c c| c}
+
+A & B & Q\\
+\hline
+0 & 0 & 1\\
+0 & 1 & 1\\
+1 & 0 & 1\\
+1 & 1 & 0\\
+
+\end{tabular}
+\end{table}
+\begin{table}[h]
+\centering\caption{NOR}
+\begin{tabular}{c c| c}
+
+A & B & Q\\
+\hline
+0 & 0 & 1\\
+0 & 1 & 0\\
+1 & 0 & 0\\
+1 & 1 & 0\\
+
+\end{tabular}
+\end{table}
+\begin{table}[h]
+\centering\caption{NOT}
+\begin{tabular}{c| c}
+
+A & Q\\
+\hline
+0 & 1\\
+1 & 0\\
+
+
+\end{tabular}
+\end{table}
+\begin{table}[h]
+\centering\caption{XOR}
+\begin{tabular}{c c| c}
+
+A & B & Q\\
+\hline
+0 & 0 & 0\\
+0 & 1 & 1\\
+1 & 0 & 1\\
+1 & 1 & 0\\
+
+\end{tabular}
+\end{table}
 \end{document}

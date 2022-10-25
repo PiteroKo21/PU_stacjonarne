@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.18)  18 OCT 2022 14:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.18)  25 OCT 2022 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -329,26 +329,68 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/local/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [1]
 
 LaTeX Warning: The counter will not be printed.
-             The label is: • on input line 49.
+             The label is: • on input line 51.
 
-[2] [3] (LatexCw1.aux) ) 
+[2]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 6
+3.
+ (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <12> on input line 63.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <8> on input line 63.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <6> on input line 63.
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] [4] (LatexCw1.aux) ) 
 Here is how much of TeX's memory you used:
- 3435 strings out of 475389
- 52923 string characters out of 2776999
- 397215 words of memory out of 3000000
- 24775 multiletter control sequences out of 15000+600000
- 477825 words of font info for 52 fonts, out of 8000000 for 9000
+ 3481 strings out of 475389
+ 53584 string characters out of 2776999
+ 404215 words of memory out of 3000000
+ 24811 multiletter control sequences out of 15000+600000
+ 482825 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,62p,828b,221s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\local\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\tcrm1200.pk>{C:/Users/local/AppData/Local/Programs/MiKTeX/fon
-ts/enc/dvips/pl/plrm.enc}<C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/pl/plbx12.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/pl/plr12.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/pl/plr17.pfb>
-Output written on LatexCw1.pdf (4 pages, 41069 bytes).
+ 55i,8n,62p,828b,291s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/enc
+/dvips/pl/plms.enc}{C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
+s/pl/plit.enc}{C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/
+plrm.enc}{C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plmi.
+enc} <C:\Users\local\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+rm1200.pk><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/pl/plbx12.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/pl/plmi12.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/pl/plr12.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/pl/plr17.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/pl/plr8.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/pl/plsy10.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/pl/plti12.pfb>
+Output written on LatexCw1.pdf (5 pages, 74408 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
