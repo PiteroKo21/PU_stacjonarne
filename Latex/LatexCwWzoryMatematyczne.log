@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.18)  15 NOV 2022 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.18)  15 NOV 2022 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./LatexCw1.tex
-(LatexCw1.tex
+**./LatexCwWzoryMatematyczne.tex
+(LatexCwWzoryMatematyczne.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-08-30>
 (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -226,25 +226,30 @@ tex.def
 File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box53
-) (LatexCw1.aux)
-\openout1 = `LatexCw1.aux'.
+)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Warning: Unused global option(s):
+    [20pt].
+
+(LatexCwWzoryMatematyczne.aux)
+\openout1 = `LatexCwWzoryMatematyczne.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -265,12 +270,12 @@ LaTeX Font Info:    ... okay on input line 14.
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -309,103 +314,87 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OML+plm on input line 1
-5.
+6.
  (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/polski\omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 
-15.
+16.
 
 (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/polski\omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMX+plex on input line 
-15.
+16.
 
 (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/polski\omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <14.4> on input line 15.
+(Font)              <17.28> on input line 16.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 15.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 15.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+(Font)              <10> on input line 16.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
 
 
 (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
 
 
 (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (43.26404pt too wide) detected at line 56
+\OT4/cmr/m/n/17.28 [\OML/plm/m/it/17.28 x\OT4/cmr/m/n/17.28 ][] = \OMS/plsy/m/n
+/17.28 f\OML/plm/m/it/17.28 y \OMS/plsy/m/n/17.28 2 \OML/plm/m/it/17.28 U \OT4/
+cmr/m/n/17.28 : \OML/plm/m/it/17.28 a\OT4/cmr/m/n/17.28 (\OML/plm/m/it/17.28 x\
+OT4/cmr/m/n/17.28 ) = \OML/plm/m/it/17.28 a\OT4/cmr/m/n/17.28 (\OML/plm/m/it/17
+.28 y\OT4/cmr/m/n/17.28 )\OML/plm/m/it/17.28 ; \OMS/plsy/m/n/17.28 8\OML/plm/m/
+it/17.28 a \OMS/plsy/m/n/17.28 2 \OML/plm/m/it/17.28 A\OMS/plsy/m/n/17.28 g\OML
+/plm/m/it/17.28 ; []x \OMS/plsy/m/n/17.28 2 \OML/plm/m/it/17.28 U
+ []
+
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 67.
+
 [1
 
-{C:/Users/local/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [1]
+{C:/Users/local/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
-LaTeX Warning: The counter will not be printed.
-             The label is: • on input line 53.
+Package caption Warning: Unused \captionsetup[table] on input line 10.
+See the caption package documentation for explanation.
 
-[2]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 6
-5.
- (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 65.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 65.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 65.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3] [4] (LatexCw1.aux) ) 
+[2] (LatexCwWzoryMatematyczne.aux) ) 
 Here is how much of TeX's memory you used:
- 4806 strings out of 475389
- 79397 string characters out of 2776999
- 428130 words of memory out of 3000000
- 26130 multiletter control sequences out of 15000+600000
- 482825 words of font info for 68 fonts, out of 8000000 for 9000
+ 4744 strings out of 475389
+ 78725 string characters out of 2776999
+ 424129 words of memory out of 3000000
+ 26085 multiletter control sequences out of 15000+600000
+ 475177 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,63p,828b,441s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/enc
-/dvips/pl/plms.enc}{C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
-s/pl/plit.enc}{C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/
-plrm.enc}{C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plmi.
-enc} <C:\Users\local\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
-rm1200.pk><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/pl/plbx12.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/pl/plmi12.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/pl/plr12.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/pl/plr17.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/pl/plr8.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/pl/plsy10.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/pl/plti12.pfb>
-Output written on LatexCw1.pdf (5 pages, 74335 bytes).
+ 55i,9n,63p,278b,172s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/local/AppData/Local/Programs/MiKT
+eX/fonts/enc/dvips/pl/plmi.enc}{C:/Users/local/AppData/Local/Programs/MiKTeX/fo
+nts/enc/dvips/pl/plrm.enc}{C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/e
+nc/dvips/pl/plms.enc}{C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/enc/dv
+ips/pl/plme.enc}<C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/pl/plbx12.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/pl/plex10.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/pl/plmi10.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/pl/plmi12.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/pl/plr10.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/pl/plr12.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+pl/plr17.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/public/p
+l/plsy10.pfb>
+Output written on LatexCwWzoryMatematyczne.pdf (2 pages, 58681 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
