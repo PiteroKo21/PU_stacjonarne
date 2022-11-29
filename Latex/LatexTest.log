@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.18)  29 NOV 2022 14:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.18)  29 NOV 2022 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,35 +299,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--38
  []
 
 LaTeX Font Info:    Trying to load font information for OML+plm on input line 8
-7.
+6.
 (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/polski\omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 
-87.
+86.
 
 (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/polski\omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMX+plex on input line 
-87.
+86.
 
 (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/polski\omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 87.
+(Font)              <10> on input line 86.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 87.
+(Font)              <7> on input line 86.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 87.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
+(Font)              <5> on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
 
 
 (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
 
 
 (C:\Users\local\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -344,7 +344,7 @@ Here is how much of TeX's memory you used:
  24778 multiletter control sequences out of 15000+600000
  477217 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,255b,216s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,8n,62p,255b,218s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/en
 c/dvips/pl/plit.enc}{C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
 ps/pl/plrm.enc}{C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl
@@ -355,7 +355,7 @@ lmi10.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/p
 lr10.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/pl
 r7.pfb><C:/Users/local/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plti
 10.pfb>
-Output written on LatexTest.pdf (4 pages, 75695 bytes).
+Output written on LatexTest.pdf (4 pages, 76808 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
