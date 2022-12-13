@@ -1,0 +1,113 @@
+ ans  =
+
+   1.
+
+--> help diary
+
+--> diary("ScilabLab1", close)
+
+diary: Nieprawidłowy typ argumentu wejściowego nr 2: oczekiwano łańcuch.
+
+--> diary("ScilabLab1", 'close')
+ ans  =
+
+   1.
+
+--> a + 5
+
+Undefined variable: a
+
+--> a = 5
+ a  = 
+
+   5.
+
+--> a + 5
+ ans  =
+
+   10.
+
+--> clear a
+
+--> a
+
+Undefined variable: a
+
+--> clear
+
+--> clear
+
+--> 
+
+--> 
+
+--> 
+
+--> resethistory
+
+--> 5 + 4
+ ans  =
+
+   9.
+
+--> 5 - 4
+ ans  =
+
+   1.
+
+--> 2\6
+ ans  =
+
+   3.
+
+--> 6/3
+ ans  =
+
+   2.
+
+--> 2*2
+ ans  =
+
+   4.
+
+--> 2//
+ ans  =
+
+   2.
+
+--> 2//2
+ ans  =
+
+   2.
+
+--> 1:8
+ ans  =
+
+   1.   2.   3.   4.   5.   6.   7.   8.
+
+--> 1;6
+ ans  =
+
+   6.
+
+--> X(5)
+
+Undefined variable: X
+
+--> X(n)
+
+Undefined variable: n
+
+--> n = 6
+ n  = 
+
+   6.
+
+--> X(n)
+
+Undefined variable: X
+
+--> X(n);
+
+Undefined variable: X
+
