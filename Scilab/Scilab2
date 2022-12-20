@@ -1,0 +1,376 @@
+ ans  =
+
+   1.
+
+--> log2(32)
+ ans  =
+
+   5.
+
+--> log2(1/81)/log2(3)
+ ans  =
+
+  -4.
+
+--> log2(1/81)/log2(3)
+ ans  =
+
+  -4.
+
+--> sqrt(2))
+sqrt(2))
+       ^^
+Error: syntax error, unexpected ), expecting end of file
+
+--> sqrt(2)
+ ans  =
+
+   1.4142136
+
+--> nthroot(5,3)
+ ans  =
+
+   1.7099759
+
+--> 7^(1/2)
+ ans  =
+
+   2.6457513
+
+--> log4(8)
+
+Undefined variable: log4
+
+--> log4(8)
+
+Undefined variable: log4
+
+--> log2(8)/log2(4)
+ ans  =
+
+   1.5
+
+--> log2(3/5)/log2(3)
+ ans  =
+
+  -0.4649735
+
+--> log2(3/5)/log2(3) + log2(25/9)/log2(9)
+ ans  =
+
+  -1.110D-16
+
+--> log2(sqrt(2)*sqrt(8)*sqrt(20)/log2(3)
+log2(sqrt(2)*sqrt(8)*sqrt(20)/log2(3)
+                                    ^^
+Error: syntax error, unexpected end of file, expecting "," or )
+
+--> log2(sqrt(2*sqrt(8*sqrt(20)))/log2(3)
+log2(sqrt(2*sqrt(8*sqrt(20)))/log2(3)
+                                    ^^
+Error: syntax error, unexpected end of file, expecting "," or )
+
+--> log2(sqrt(2*sqrt(8*sqrt(20))))/log2(3)
+ ans  =
+
+   1.1295163
+
+--> log10(nthroot(3,1/a^2)*nthroot(4,1/b^2))
+
+Undefined variable: a
+
+--> 10^(-log10(8))
+ ans  =
+
+   0.125
+
+--> 10^(1-log10(2))
+ ans  =
+
+   5.0000000
+
+--> log2(7)/log(nthroot(5,3)) * log(125)/log(sqrt(7))
+ ans  =
+
+   25.968511
+
+--> log2(7)/log(nthroot(5,3)) * log(125)/log(sqrt(7))
+ ans  =
+
+   25.968511
+
+--> log2((7)/log(nthroot(5,3)) * log(125)/log(sqrt(7))
+log2((7)/log(nthroot(5,3)) * log(125)/log(sqrt(7))
+                                                 ^^
+Error: syntax error, unexpected end of file, expecting "," or )
+
+--> log2((7)/log(nthroot(5,3)) * log((125)/log(sqrt(7))
+log2((7)/log(nthroot(5,3)) * log((125)/log(sqrt(7))
+                                                  ^^
+Error: syntax error, unexpected end of file, expecting "," or )
+
+--> log2(7)/log(nthroot(5,3)) * log(125)/log(sqrt(7))
+ ans  =
+
+   25.968511
+
+--> log2(7)/log(nthroot(5,3)) * log2(125)/log(sqrt(7))
+ ans  =
+
+   37.464642
+
+--> log2(12)*log2(22)/log2(12)
+ ans  =
+
+   4.4594316
+
+--> log2(12)*log2(22)/log2(12)*log2(32)/log2(22)
+ ans  =
+
+   5.
+
+--> [4^(-1/4)
+  > 
+  > 
+  > 
+  > [4^(-1/4)]
+  > [4^(-1/4)]
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > 
+  > ;
+  > quit
+  > aborte
+  > log2(12)*log2(22)/log2(12)*log2(32)/log2(22)
+  > 
+ ans  =
+
+   2.
+
+--> [4^(-1/4)+((1/(2-3/2))^(-4/3)]*[4^(-1/4)+(2*sqrt(2))^(-4/3)
+  > 
+  > 
+ ans  =
+
+   1.
+
+--> [4^(-1/4)+((1/(2-3/2))^(-4/3)]*[4^(-1/4)+(2*sqrt(2))^(-4/3)]
+[4^(-1/4)+((1/(2-3/2))^(-4/3)]*[4^(-1/4)+(2*sqrt(2))^(-4/3)]
+                             ^^
+Error: syntax error, unexpected ]
+
+--> [4^(-1/4)+(1/(2-3/2))^(-4/3)]*[4^(-1/4)+(2*sqrt(2))^(-4/3)]
+ ans  =
+
+   1.0566048
+
+--> [4^(-1/4)+((1/(2-3/2)))^(-4/3)]*[4^(-1/4)+(2*sqrt(2))^(-4/3)]
+ ans  =
+
+   1.0566048
+
+--> [4^(-1/4)+((1/(2-3/2)))^(-4/3)]*[4^(-1/4)+((2*sqrt(2)))^(-4/3)]
+ ans  =
+
+   1.0566048
+
+--> (4^(-1/4)+(1/(2-3/2)))^(-4/3)*4^(-1/4)+((2*sqrt(2)))^(-4/3))
+(4^(-1/4)+(1/(2-3/2)))^(-4/3)*4^(-1/4)+((2*sqrt(2)))^(-4/3))
+                                                           ^^
+Error: syntax error, unexpected ), expecting end of file
+
+--> (4^(-1/4)+(1/(2-3/2)))^(-4/3)*4^(-1/4)+((2*sqrt(2)))^(-4/3)
+ ans  =
+
+   0.4374179
+
+--> (4^(-1/4)+(1/(2-3/2)))^(-4/3)*4^(-1/4)+((2*sqrt(2)))^(-4/3)
+ ans  =
+
+   0.4374179
+
+--> (4^(-1/4)+(1/(2-3/2)))^(-4/3)*4^(-1/4)+((2*sqrt(2)))^(-4/3)
+ ans  =
+
+   0.4374179
+
+--> (4^(-1/4)+(1/(2-3/2)))^(-4/3)*4^(-1/4)+((2*sqrt(2)))^(-4/3)
+ ans  =
+
+   0.4374179
+
+--> (4^(-1/4)+(1/(2-3/2)))^(-4/3)*4^(-1/4)+((2*sqrt(2)))^(-4/3)
+ ans  =
+
+   0.4374179
+
+--> (4^(-1/4)+(1/(2-3/2)))^(-4/3)*4^(-1/4)+((2*sqrt(2)))^(-4/3)
+ ans  =
+
+   0.4374179
+
+--> 105/%pi
+ ans  =
+
+   33.422538
+
+--> 140/%p
+
+Undefined variable: %p
+
+--> 140/%pi
+ ans  =
+
+   44.563384
+
+--> 710/%pi
+ ans  =
+
+   226.00002
+
+--> 710* (%pi/180)
+ ans  =
+
+   12.391838
+
+--> 315* (%pi/180)
+ ans  =
+
+   5.4977871
+
+--> 240* (%pi/180)
+ ans  =
+
+   4.1887902
+
+--> (7*pi)/12
+
+Undefined variable: pi
+
+--> (7*%pi)/12
+ ans  =
+
+   1.8325957
+
+--> 7*%pi/12 * 180/%pi
+ ans  =
+
+   105.00000
+
+--> 4*%pi/3 * 180/%pi
+ ans  =
+
+   240.00000
+
+--> 9*%pi/2 * 180/%pi
+ ans  =
+
+   810.00000
+
+--> 7*%pi/12 * 180/%pi
+ ans  =
+
+   105.00000
+
+--> 11*%pi/12 * 180/%pi
+ ans  =
+
+   165.00000
+
+--> 31*%pi/18 * 180/%pi
+ ans  =
+
+   310.
+
+--> arc_drawing_method
+
+Undefined variable: arc_drawing_method
+
+--> arc_drawing_method(2)
+
+Undefined variable: arc_drawing_method
+
+--> asin(-sqrt(3)/2)
+ ans  =
+
+  -1.0471976
+
+--> atan(1)
+ ans  =
+
+   0.7853982
+
+--> asin(1/2)
+ ans  =
+
+   0.5235988
+
+--> asin(sin(%pi/3))
+ ans  =
+
+   1.0471976
+
+--> sin(asin(1/2))
+ ans  =
+
+   0.5
+
+--> sin(atan(sqrt(3))+acos(-1/2))
+ ans  =
+
+   1.225D-16
+
+--> sin(atan(sqrt(3))+acos(-1/2)))
+sin(atan(sqrt(3))+acos(-1/2)))
+                             ^^
+Error: syntax error, unexpected ), expecting end of file
+
+--> sin(atan(sqrt(3))+acos(-1/2))
+ ans  =
+
+   1.225D-16
+
+--> acos(sqrt(2)/2)
+ ans  =
+
+   0.7853982
+
