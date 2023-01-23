@@ -1,0 +1,66 @@
+/Zad 4:
+
+a)
+
+CREATE TABLE Benefit (id_benefitu INT PRIMARY KEY, nazwa VARCHAR(30) NOT
+NULL, cena FLOAT, opis TEXT, rodzaj ENUM ('lekarz', 'sport','przedszkole') );
+
+
+b)
+
+CREATE TABLE Uzytkownik (id_uzytkownika INT PRIMARY KEY NOT NULL, rodzaj
+ENUM('pracownik','prezes','rodzina') DEFAULT 'pracownik', imie VARCHAR(32) NOT NULL, nazwisko VARCHAR(20) NOT NULL, zarobki FLOAT UNSIGNED DEFAULT '2000', dataur DATE, id_benefitu INT, FOREIGN KEY(id_benefitu) REFERENCES Benefit(id_benefitu) ON DELETE CASCADE );
+
+
+/Zad 5:
+
+INSERT INTO Benefit (id_benefitu , nazwa, cena, opis, rodzaj) SELECT idZasobu, nazwa, waga, "brak", 'sport' FROM zasob;
+
+/Zad 6:
+
+ALTER TABLE Uzytkownik ALTER COLUMN rodzaj SET DEFAULT 'prezes';
+
+/Zad 7:
+
+UPDATE Benefit SET nazwa = 'Granie' WHERE nazwa LIKE '%an%';
+
+/Zad 8:
+
+DELETE FROM Benefit WHERE cena > 75;
+
+/Zad 9:
+
+a)
+
+SELECT * FROM zawodnik WHERE klub IS NOT NULL AND dataUrodzenia BETWEEN '1985-01-01' AND '1999-01-01' ORDER BY dataUrodzenia ASC LIMIT 3;
+
+b)
+
+SELECT COUNT(*), kraj.nazwa FROM zawodnik JOIN kraj ON kraj.idKraju = zawodnik.idKraju WHERE zawodnik.dataUrodzenia BETWEEN '1990-01-01' AND '1999-01-01' GROUP BY kraj.nazwa ORDER BY kraj.nazwa ;
+
+SELECT konkurencja.nazwaKonkurencji , AVG(wyniki.wynik) FROM zawodnik JOIN wyniki ON wyniki.idZawodnika = zawodnik.idZawodnika JOIN konkurencja ON wyniki.idKonkurencji = konkurencja.idKonkurencji  WHERE wyniki.idKonkurencji = '1' GROUP BY wyniki.wynik LIMIT 10;
+
+c)
+
+SELECT miejsce_zawodow.nazwa, AVG(wyniki.wynik) FROM wyniki JOIN konkurencja ON wyniki.idKonkurencji = konkurencja.idKonkurencji JOIN miejsce_zawodow ON konkurencja.idMiejsca = miejsce_zawodow.idMiejsca WHERE konkurencja.nazwaKonk
+urencji = 'bieg' GROUP BY konkurencja.idKonkurencji HAVING SUM(wyniki.idZawodnika) >= 4;
+
+d)
+
+SELECT GROUP_CONCAT(z1.imie, ' ', z1.nazwisko), YEAR(z1.dataUrodzenia) FROM zawodnik z1 JOIN zawodnik z2 ON YEAR(z1.dataUrodzenia)=YEAR(z2.dataUrodzenia) GROUP BY YEAR(z1.dataUrodzenia) ORDER BY YEAR(z1.dataUrodzenia);
+
+e)
+
+SELECT CONCAT(zawodnik.imie, ' ', zawodnik.nazwisko), COUNT(DISTINCT(konkurencja.idMiejsca)) as liczba_zawodow FROM zawodnik LEFT JOIN wyniki ON zawodnik.idZawodnika = wyniki.idZawodnika LEFT JOIN konkurencja ON wyniki.idKonkurenc
+ji = konkurencja.idKonkurencji GROUP BY zawodnik.idZawodnika;
+
+f)
+
+SELECT * FROM kraj LEFT JOIN miejsce_zawodow ON kraj.idKraju = miejsce_zawodow.idKraju WHERE idMiejsca IS NULL;
+
+g)
+
+SELECT kraj.nazwa FROM kraj JOIN miejsce_zawodow ON kraj.idKraju = miejsce_zawodow.idKraju GROUP BY kraj.idKraju HAVING COUNT(kraj.idKraju) = 1 ORDER BY nazwa ASC;
+
+
+
